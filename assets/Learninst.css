@@ -421,6 +421,10 @@ body{
     color: #fff;
     margin-top: .8em;
 }
+.copyright h2{
+    font-size: 1em;
+    color: #fff;
+}
 .copyright img{
     width: 2.4em;
     height: 2.5em;
