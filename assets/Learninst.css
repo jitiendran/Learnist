@@ -172,6 +172,125 @@ body{
     font-size: 1em;
     font-weight: 500;
 }
+.registration{
+    display: none;
+    margin-left: 30em;
+}
+.registration button{
+    margin-top: 1em;
+    width: 21em;
+    height: 2.5em;
+    font-size: 1.3em;
+    color: #fff;
+    background-color: #FF3394;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: .3em;
+}
+.registration-share{
+    margin-left: .7em;
+}
+.registration-share button{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid gainsboro;
+}
+.registration-share button:hover{
+    border: 2px solid #FF3394;
+}
+.registration-title{
+    display: flex;
+    flex-direction: row;
+    color: #FF3394;
+}
+.registration-content{
+    padding: 2px;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30em;
+    height: 38em;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 1px gainsboro;
+}
+.registration-content-container label{
+    font-size: 1.2em;
+    justify-content: left;
+}
+.registration-content-container{
+    margin-top: 1em;
+}
+.registration-content-container input[type = text]{
+    width: 12em;
+    height: .6em;
+    font-size: 1.5em;
+    padding: 12px; 
+    margin-left: 2em;
+}
+.registration-content-container input[type = text]:focus{
+    border: 2px solid #FF3394;
+    outline: none;
+}
+.registration-content-container input[type = password]:focus{
+    border: 2px solid #FF3394;
+    outline: none;
+}
+.registration-content-container input[type = password]{
+    width: 12em;
+    height: .6em;
+    font-size: 1.5em;
+    padding: 12px; 
+    margin-left: .7em;
+}
+.login-form{
+    display: none;
+    margin-left: 30em;
+}
+.login-form button{
+    margin-top: 1em;
+    width: 21em;
+    height: 2.5em;
+    font-size: 1.3em;
+    color: #fff;
+    background-color: #FF3394;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: .3em;
+}
+.login-form-content{
+    padding: 2px;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30em;
+    height: 31em;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 1px gainsboro;
+}
+.login-share{
+    display: flex;
+    flex-direction: column;
+}
+.login-share button{
+    width: 20em;
+    height: 2.3em;
+    font-size: 1.3em;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: .7em;
+}
+.login-share button:hover{
+    border: 2px solid #FF3394;
+}
 .first-content{
     display: flex;
     flex-direction: column;
