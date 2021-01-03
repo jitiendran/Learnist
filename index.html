@@ -24,8 +24,11 @@
     </div>
     <div id="web">
         <div class="navbar">
+            <div class="nav">
+                <button onclick="open_nav()"><i class="fas fa-bars"></i></button>
+            </div>
             <img src="assets/images/web-icon.png" alt="" class="web-icon">
-            <p class="web-name">Learnist</p>
+            <p class="web-name">Learnist</p> 
             <button class="explore">Categories&nbsp;<i class="fas fa-chevron-down"></i></button>
             <input type="text" placeholder="what to do you want to learn?" class="search-bar">
             <button class="search-bar-wrapper"><i class="fas fa-search"></i></button>
@@ -34,6 +37,20 @@
             <button class="cart"><i class="fas fa-shopping-cart"></i></button>
             <a href="#" class="login" onclick="login()">Log in</a>
             <button class="register-btn" onclick="register()">Join for free</button>
+        </div>
+        <div class="navbar-hidden" id="nav-hidden">
+            <ul class="navbar-hidden-list">
+                <div class="top">
+                    <a href="#" onclick="close_nav()"><i class="fas fa-times"></i></a>
+                    <li><a href="#" class="navbar-hidden-explore">Explore</a></li>
+                </div>
+                
+                <hr>
+                <li><a href="#" class="navbar-hidden-for">For Business</a></li>
+                <li><a href="#" class="navbar-hidden-for">For Students</a></li>
+                <li><button onclick="login()" class="navbar-hidden-login">log in</button></li>
+                <li><button onclick="register()" class="navbar-hidden-register">Join for free</button></li>  
+            </ul>
         </div>
         <div class="registration" id="register">
             <div class="registration-content">
@@ -120,7 +137,7 @@
                 </div>
             </div>  
             <div class="second-content">
-                <h1 class="second-content-title">Popular Courses</h1>
+                <h1>Popular Courses</h1>
                 <div class="course-container">
                     <div class="second-content-container">
                         <img src="assets/images/python-1.png" alt="">
@@ -135,7 +152,7 @@
                             <p class="rating">4.5</p>
                         </div>
                     </div>
-                    <div class="second-content-container">
+                    <div class="second-content-container" id="a3" >
                         <img src="assets/images/java-game.png" alt="">
                         <h1>Game development with Java</h1>
                         <p>Aanandan.Tma</p>
@@ -161,7 +178,7 @@
                             <p class="rating">4.2</p>
                         </div>
                     </div>
-                    <div class="second-content-container">
+                    <div class="second-content-container" id="a1">
                         <img src="assets/images/web-dev.jpg" alt="">
                         <h1>Front-End Web dev with HTML,CSS and JS</h1>
                         <p>Prasanth.S</p>
@@ -175,7 +192,7 @@
                         </div>
                         
                     </div>
-                    <div class="second-content-container">
+                    <div class="second-content-container" id="a2">
                         <img src="assets/images/machine.jpg" alt="">
                         <h1>Machine learning using python</h1>
                         <p>Aara amuthan.B</p>
@@ -243,7 +260,7 @@
                 <hr>
                 <div class="copyright">
                     <img src="assets/images/web-icon.png" alt="" class="web-icon">
-                    <p>Learnist </p>
+                    <p id="a4">Learnist </p>
                     <h2 class="cp"><i class="far fa-copyright"></i>&nbsp;2020 Learnist Inc.All rights reserved</h2>
                     <div class="footer-icons">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>

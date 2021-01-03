@@ -456,7 +456,8 @@ body{
     border-radius: 2px;
     box-shadow: inset 0 0 0 1px gainsboro;
 }
-.second-content-title{
+.second-content h1{
+   font-size: 2em; 
     margin-left: 1em;
     margin-bottom: 1em;
 }
@@ -541,8 +542,6 @@ body{
     margin-top: .6em;
     margin-left: .4em;
     color: #15a8c2;
-    /* align-items: center;
-    align-self: center; */
 }
 .third-content-details p{
     font-size: 1em;
@@ -641,4 +640,347 @@ body{
 }
 .footer hr{
     border: .01px solid gainsboro;
+}
+
+/* Responsive design for the website  */
+.nav{
+    display: none;
+}
+.fa-times{
+    font-size: 1.2em;
+    margin-left: 13em;
+    text-decoration: none;
+    color: #000;
+    outline: none;
+}
+.navbar-hidden{
+    display: none;
+    width: 80%;
+    margin-left: -.45em;
+    position: absolute;
+    background-color: #fff;
+    border: 2px solid gainsboro;
+    box-shadow: inset 0 0 0 5px solid gainsboro;
+    border-radius: .15em;
+}
+.navbar-hidden-list{
+    list-style: none;
+    margin-left: -1.5em;
+}
+.navbar-hidden-list li{
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+.navbar-hidden-explore{
+    text-decoration: none;
+    color: #FF3394;
+    font-size: 1.3em;
+}
+.navbar-hidden-for{
+    text-decoration: none;
+    color: #000;
+}
+.navbar-hidden-login{
+    width: 12em;
+    height: 2.3em;
+    border-radius: .2em;
+    outline: none;
+    font-size: 1.03em;
+    background-color: #fff;
+    border: 2px solid #FF3394;
+    color: #FF3394;
+}
+.navbar-hidden-register{
+    width: 12em;
+    height: 2.3em;
+    border-radius: .2em;
+    outline: none;
+    font-size: 1.03em;
+    background-color: #FF3394;
+    border: 2px solid #FF3394;
+    color: #fff;
+}
+
+@media (max-width : 360px){
+    /* body{
+        width: 108%;
+    } */
+    .navbar{
+        width: 108%;
+    }
+    .nav{
+        display: block;
+        margin-left: 1em;
+        cursor: pointer;
+    }
+    .nav i{
+        font-size: 1.4em;
+    }
+    .nav button{
+        width: 4em;
+        height: 4em;
+        border: none;
+        outline: none;
+        background-color: #fff;
+    }
+    .web-icon{
+        margin-left: 1.3em;
+    }
+    .explore{
+        display: none;
+    }
+    .search-bar{
+        display: none;    
+    }
+    .fa-search{
+        color: #FF3394;
+    }
+    .search-bar-wrapper{
+        margin-left: 4em;
+        background-color: #fff;
+    }
+    .cart{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+    .register-btn{
+        display: none;
+    }
+    .for{
+        display: none;
+    }
+    .first-content{
+        width: 108%;
+        height: 40em;
+    }
+    .first-content-container{
+        width: 99%;
+    }
+    .first-content-container h1{
+        font-size: 2em;
+    }
+    .first-content-container p{
+        font-size: 1.2em;
+    }
+    .circle{
+        margin-left: 2em;
+    }
+    .pink-circle{
+        width: 16em;
+        height: 16em;
+        margin-top: 15.5em;
+        margin-left: -1em;
+    }
+    .pink-circle p{
+        font-size: 1em;
+    }
+    .register-btn1{
+        width: 7em;
+        height: 2em;
+        font-size: 1.3em;
+    }
+    .learn-more{
+        margin-left: 1em;
+        margin-top: 1.4em;
+        font-size: 1.2em;
+        height: 1em;
+        border: 2px solid #FF3394;
+    }
+    .without-container{
+        height: 2.5em;
+        width: 108%;
+    }
+    .without-container p{
+        font-size: .9em;
+        margin-left: -.4em;
+        margin-right: .3em;
+    }
+    .without-container-contents{
+        width: 27em;
+    }
+    .without-container a{
+        font-size: .9em;
+    }
+    .icon{
+        margin-top: .4em;
+        margin-left: -.5em;
+    }
+    .icon-container-img{
+        width: 5em;
+        height: 5em;
+    }
+    .microsoft{
+        margin-top: -.35em;
+        width: 6em;
+        height: 6em;
+    }
+    .ibm{
+        width: 4em;
+        height: 1.5em;
+    }
+    .stanford{
+        width: 5em;
+        height: 3em;
+    }
+    .amazon{
+        display: none;
+    }
+    .oxford{
+        display: none;
+    }
+    .Oracle{
+        display: none;
+    }
+    .second-content{
+        width: 108%;
+    }
+    .second-content h1{
+        font-size: 1.3em;
+    }
+    #a1{
+        display: none;
+    }
+    #a2{
+        display: none;
+    }
+    #a3{
+        display: none;
+    }
+    .second-content{
+        height: 17em;
+    }
+    .second-content-container{
+        margin-right: .9em;
+        margin-left: -.5em;
+        width: 10em;
+        height: 10em;
+    }
+    .second-content-container img{
+        margin-top: -.5em;   
+        width: 8.5em;
+        height: 6em;
+        margin-bottom: -.3em;
+    }
+    .second-content-container h1{
+        font-size: .8em;
+        margin-left: -.1em;
+    }
+    .second-content-container p{
+        font-size: .7em;
+    }
+    .rating i{
+        font-size: .5em;
+    }
+    .more{
+        margin-top: 6em;
+           
+        width: 2em;
+        height: 1.4em;
+    }
+    .more i{
+        font-size: 1em;
+        margin-top: .2em;
+    }
+    .third-content{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        flex-direction: column;
+        width: 108%;
+    }
+    .third-content-details{
+        width: 20em;
+        height: 4em;
+        margin-bottom: .4em;
+        margin-left: .5em;
+    }
+    .third-content-details h1{
+        font-size: 1.1em;
+    }
+    .third-content-details p{
+        font-size: .8em;
+    }
+    .third-content-details i{
+        font-size: 1.7em;
+    }
+    .footer{
+        width: 108%;
+        height: 17em;
+    }
+    .footer-contents ul{
+        margin-top: -2.5em;
+    }
+    .footer-contents li{
+        font-size: .8em;
+    }
+   .footer-contents select{
+       margin-top: -1.8em;
+       font-size: 1em;
+   }
+   .copyright p{
+       margin-top: -.1em;
+       font-size: 1em;
+   }
+   .copyright img{
+       margin-top: -.1em;
+       width: 1.5em;
+       height: 1.5em;
+   }
+   .copyright h2{
+       margin-top: -.1em;
+       font-size: .6em;
+       margin-left: 2em;
+   }
+   .web-icon{
+       display: none;
+   }
+   #a4{
+       display: none;
+   }
+   .footer-icons{
+       font-size: .8em;
+       margin-left: 3em ;
+       margin-top: -1em;
+   }
+   .login-form{
+       margin-left: 1em;      
+   }
+   .login-form-content{
+       width: 20em;
+       height: 29em;
+   }
+   .login-form button{
+       width: 14em;
+       height: 1.9em;
+   }
+  .registration-share button{
+      width: 16em;
+      height: 1.9em;
+      font-size: 1.1em;
+  }
+  .registration-content-container label{
+      font-size: 1em;
+  }
+  .registration-content-container input[type=text]{
+      width: 11em;
+      font-size: 1em;
+      height: .3em;
+  }
+  .registration-content-container input[type=password]{
+      font-size: 1em;
+      width: 11em;
+      height: .3em;
+  }
+  .registration-content{
+      width: 20em;
+      height: 33em;
+  }
+  .registration{
+      margin-left: .5em;
+  }
+  .registration button{
+      width: 1em;
+      font-size: 1.1em;
+  }
 }

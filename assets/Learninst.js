@@ -22,3 +22,10 @@ function back(){
     document.getElementById("content").style.display = "block";
     document.getElementById("register").style.display = "none";
 }
+function open_nav(){
+    document.getElementById("nav-hidden").style.display = "block";
+}
+function close_nav(){
+    document.getElementById("nav-hidden").style.display = "none";
+
+}
