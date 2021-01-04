@@ -449,7 +449,7 @@ body{
     margin-top: 5em;
     margin-left: -.5em;
     width: 110.5%;
-    height: 25em;
+    height: 27em;
     background-color: #fff;
     align-items: flex-start;
     padding: .3em;
@@ -469,22 +469,24 @@ body{
 
 }
 .second-content-container{
-    margin-right: 1.5em;
+    margin-right: 0em;
     align-self: center;
     background-color: #fff ;
     box-shadow: inset 0 0 0 1.3px gainsboro;
     border-radius: 5px;
+    margin-left: 2em;
     padding: 1em;
-    width: 15em;
-    height: 16em;
+    width: 18em;
+    height: 17em;
 }
 .second-content-container img{
     border-radius: 5px;
-    width: 15em;
-    height: 9em;
+    width: 16.5em;
+    height: 10em;
 }
 .second-content-container h1{
     font-size: 1.2em;
+    margin-left: -.03em;
     margin-bottom: -.5em;
 }
 .second-content-container p{
@@ -503,20 +505,54 @@ body{
     margin-top: 0em;
     margin-left: .4em;
 }
+.prev{
+    background-color: #fff;
+    margin-top: 8em;
+    margin-right: 1.2em;
+}
+.prev button{
+    border: 2.2px solid gainsboro;
+    background-color: #fff;
+    border-radius: 80%;
+    outline: none;
+    width: 4em;
+    height: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+.prev i{
+    color: #000;
+    outline: none;
+    text-align: center;
+    font-size: 1.7em;
+    margin-top: .2em;
+}
 .more{
     background-color: #fff;
-    border: 2.2px solid gainsboro;
-    border-radius: 80%;
-    width: 3em;
-    height: 3em;
     margin-top: 8em;
-    margin-left: -2.5em;
+    margin-left: 2.5em;
     text-align: center; 
 }
-.more i{
-    margin-top: .5em;
+.more button{
+    border: 2.2px solid gainsboro;
+    background-color: #fff;
+    border-radius: 80%;
+    outline: none;
+    width: 4em;
+    height: 4em;
     text-align: center;
-    font-size: 1.4em;
+    cursor: pointer;
+}
+.more button:hover,.prev button:hover{
+    border: 3px solid #FF3394;
+}
+.more i{
+    color: #000;
+    outline: none;
+    /* margin-left: -.2em; */
+    margin-top: .2em;
+    text-align: center;
+    font-size: 1.7em;
 }
 .third-content{
     margin-top: 2em;
@@ -642,7 +678,11 @@ body{
     border: .01px solid gainsboro;
 }
 
-/* Responsive design for the website  */
+/* slider */
+#slide5,#slide6{
+    display: none;
+}
+/* newly added  */
 .nav{
     display: none;
 }

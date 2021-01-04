@@ -141,7 +141,10 @@
             <div class="second-content">
                 <h1>Popular Courses</h1>
                 <div class="course-container">
-                    <div class="second-content-container">
+                    <div class="prev">
+                        <button onclick="prev()"><i class="fas fa-chevron-left"></i></button>
+                    </div>
+                    <div class="second-content-container" id="slide1">
                         <img src="assets/images/python-1.png" alt="">
                         <h1>Python for Data Science and Deep learning</h1>
                         <p>Jitiendran.Ks</p>
@@ -154,7 +157,7 @@
                             <p class="rating">4.5</p>
                         </div>
                     </div>
-                    <div class="second-content-container" id="a3" >
+                    <div class="second-content-container" id="slide2" >
                         <img src="assets/images/java-game.png" alt="">
                         <h1>Game development with Java</h1>
                         <p>Aanandan.Tma</p>
@@ -167,7 +170,7 @@
                             <p class="rating">4.0</p>
                         </div>                
                     </div>
-                    <div class="second-content-container">
+                    <div class="second-content-container" id="slide3">
                         <img src="assets/images/c++-course.jpg" alt="">
                         <h1>Advanced C++ programming</h1>
                         <p>Jayasurya.V</p>
@@ -180,7 +183,7 @@
                             <p class="rating">4.2</p>
                         </div>
                     </div>
-                    <div class="second-content-container" id="a1">
+                    <div class="second-content-container" id="slide4">
                         <img src="assets/images/web-dev.jpg" alt="">
                         <h1>Front-End Web dev with HTML,CSS and JS</h1>
                         <p>Prasanth.S</p>
@@ -194,7 +197,7 @@
                         </div>
                         
                     </div>
-                    <div class="second-content-container" id="a2">
+                    <div class="second-content-container" id="slide5">
                         <img src="assets/images/machine.jpg" alt="">
                         <h1>Machine learning using python</h1>
                         <p>Aara amuthan.B</p>
@@ -207,8 +210,21 @@
                             <p class="rating">4.7</p>
                         </div>
                     </div>
+                    <div class="second-content-container" id="slide6">
+                        <img src="assets/images/ds.jpg" alt="">
+                        <h1>Data structures and Algorithms</h1>
+                        <p>Gokul.BJ</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                            <p class="rating">4.9</p>
+                        </div>
+                    </div>
                     <div class="more">
-                        <i class="fas fa-chevron-right"></i>
+                        <button onclick="slide()"><i class="fas fa-chevron-right"></i></button>
                     </div>
                 </div>
             </div>
