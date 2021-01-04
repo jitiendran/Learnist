@@ -681,7 +681,7 @@ body{
     color: #000;
 }
 .navbar-hidden-login{
-    width: 12em;
+    width: 15em;
     height: 2.3em;
     border-radius: .2em;
     outline: none;
@@ -691,7 +691,7 @@ body{
     color: #FF3394;
 }
 .navbar-hidden-register{
-    width: 12em;
+    width: 15em;
     height: 2.3em;
     border-radius: .2em;
     outline: none;
@@ -715,9 +715,32 @@ body{
 }
 
 @media (max-width : 480px){
-    /* body{
-        width: 108%;
-    } */
+    .loading-content{
+        margin-top: 16em;
+        margin-left: 9em;
+        width: 7em;    
+    }
+    .loading-title{
+        display: none;
+    }
+    .loading-content h1{
+        font-size: 2em;
+    }
+    .loading-page img{
+        width: 3em;
+        height: 3em;
+    }
+
+    .loader{
+        width: 3em;
+        height: 3em;
+        margin-left: 10em;
+    }
+   .wait{
+       font-size: 1.6em;
+       margin-left: 5em;
+   } 
+    
     .navbar{
         width: 108%;
     }
@@ -916,6 +939,7 @@ body{
     }
     .third-content-details i{
         font-size: 1.9em;
+        color: #2cb4cc;
     }
     .footer{
         width: 108%;
