@@ -8,11 +8,13 @@ function removeloader(){
     document.getElementById("web").style.display = "block";
 }
 function register(){
+    close_nav();
     document.getElementById("login").style.display = "none";
     document.getElementById("content").style.display = "none";
     document.getElementById("register").style.display = "block";
 }
 function login(){
+    close_nav();
     document.getElementById("content").style.display = "none";
     document.getElementById("login").style.display = "block";
     document.getElementById("register").style.display = "none";

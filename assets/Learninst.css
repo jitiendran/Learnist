@@ -984,12 +984,14 @@ body{
        margin-left: 1em;      
    }
    .login-form-content{
-       width: 20em;
-       height: 29em;
+       width: 23.1em;
+       height: 30em;
    }
    .login-form button{
-       width: 14em;
-       height: 1.9em;
+       font-size: 1.1em;
+       width: 18em;
+       height: 2.2em;
+       margin-bottom: .5em;
    }
   .registration-share button{
       width: 16em;
@@ -1008,16 +1010,18 @@ body{
       font-size: 1em;
       width: 11em;
       height: .3em;
+      /* margin-left: -.1em; */
   }
   .registration-content{
-      width: 20em;
+      width: 23em;
       height: 33em;
   }
   .registration{
       margin-left: .5em;
   }
   .registration button{
-      width: 1em;
+      width: 18.5em;
+      height: 2.3em;   
       font-size: 1.1em;
   }
 }
