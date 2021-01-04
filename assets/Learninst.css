@@ -1082,3 +1082,64 @@ body{
       font-size: 1.1em;
   }
 }
+@media (max-width: 360px){
+    .loading-content{
+        margin-left: 7em;
+    }
+    .loader{
+        margin-left: 8em;
+    }
+    .wait{
+        margin-left: 4em;
+    }
+    .navbar-hidden-login{
+        width: 13em;
+    }
+    .navbar-hidden-register{
+        width: 13em;
+    }
+    .search-bar-wrapper{
+        margin-left: 4em;
+    }
+    .first-content{
+        height: 37em;
+    }
+    .circle{
+        margin-left: .6em;
+    }
+    .pink-circle{
+        margin-top: 11.2em;
+    }
+    .learn-more{
+        margin-top: -2.1em;
+    }
+    .first-content button{
+        margin-top: .5em;
+        margin-left: 9.5em;
+    }
+    .without-container p{
+        font-size: .88em;
+    }
+    .without-container a{
+        font-size: .88em;
+    }
+    .third-content-details{
+        width: 20em;
+    }
+    .login-form{
+        margin-left: .3em;
+    }
+    .login-form-content{
+        width: 21em;
+    }
+    .registration{
+        margin-left: .08em;
+    }
+    .registration-content{
+        width: 21.2em;
+    }
+    .registration-share button{
+        width: 17em;
+    }
+
+}
