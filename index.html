@@ -7,7 +7,11 @@
     <link rel="icon" href="assets/images/web-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="stylesheet" href="assets/Learninst.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="assets/Learninst.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 <body>
     <div class="loading-page" id="loading">
@@ -140,7 +144,138 @@
             </div>  
             <div class="second-content">
                 <h1>Popular Courses</h1>
+                <div class="swiper-container" id="swipper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="second-content-container">
+                                <img src="assets/images/python-1.png" alt="">
+                                <h1>Python for Data Science and Deep learning</h1>
+                                <p>Jitiendran.Ks</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half"></i>
+                                    <p class="rating">4.5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="second-content-container">
+                                <img src="assets/images/java-game.png" alt="">
+                                <h1>Game development with Java</h1>
+                                <p>Aanandan.Tma</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <p class="rating">4.0</p>
+                                </div>                
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="second-content-container">
+                                <img src="assets/images/c++-course.jpg" alt="">
+                                <h1>Advanced C++ programming</h1>
+                                <p>Jayasurya.V</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <p class="rating">4.2</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="second-content-container">
+                                <img src="assets/images/web-dev.jpg" alt="">
+                                <h1>Front-End Web dev with HTML,CSS and JS</h1>
+                                <p>Prasanth.S</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half"></i>
+                                    <i class="far fa-star"></i>
+                                    <p class="rating">3.6</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="second-content-container">
+                                <img src="assets/images/machine.jpg" alt="">
+                                <h1>Machine learning using python</h1>
+                                <p>Aara amuthan.B</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half"></i>
+                                    <p class="rating">4.7</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="second-content-container">
+                                <img src="assets/images/ds.jpg" alt="">
+                                <h1>Data structures and Algorithms</h1>
+                                <p>Gokul.BJ</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half"></i>
+                                    <p class="rating">4.9</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                
+                    <!-- If we need scrollbar -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                </div>
+                <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+                <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+                <script>
+                    var mySwiper = new Swiper('.swiper-container', {
+                    // Optional parameters
+                    // direction: 'vertical',
+                    // loop: true,
+
+                    // If we need pagination
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+                    // Navigation arrows
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+
+                    // And if we need scrollbar
+                    // scrollbar: {
+                    //     el: '.swiper-scrollbar',
+                    // },
+                    })
+                </script>
                 <div class="course-container">
+                    
                     <div class="prev">
                         <button onclick="prev()"><i class="fas fa-chevron-left"></i></button>
                     </div>

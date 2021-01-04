@@ -682,6 +682,14 @@ body{
 #slide5,#slide6{
     display: none;
 }
+
+/* swiper */
+.swiper-container {
+    width: 600px;
+    height: 300px;
+    display: none;
+}
+
 /* newly added  */
 .nav{
     display: none;
@@ -753,7 +761,6 @@ body{
     display: none;
     border-radius: 5px;
 }
-
 @media (max-width : 480px){
     .loading-content{
         margin-top: 16em;
@@ -918,39 +925,49 @@ body{
     .second-content h1{
         font-size: 1.3em;
     }
-    #a1{
+    .prev{
         display: none;
     }
-    #a2{
+    #slide1,#slide2,#slide3,#slide4,#slide5,#slide6{
         display: none;
     }
-    #a3{
-        display: none;
+    .swiper-container{
+        height: 20em;
+        width: 23em;
+        display: block;
+    }
+    .swiper-slide{
+        /* color: #FF3394; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .second-content{
-        height: 17em;
+        height: 24em;
     }
     .second-content-container{
         margin-right: .9em;
-        margin-left: -.5em;
-        width: 10em;
-        height: 10em;
+        margin-left: 1em;
+        width: 15em;
+        height: 15em;
+        margin-top: 2em;
+        margin-bottom: 4em;
     }
     .second-content-container img{
-        margin-top: -.5em;   
-        width: 9.5em;
-        height: 6em;
+        margin-top: 0em;   
+        width: 15em;
+        height: 9em;
         margin-bottom: -.3em;
     }
     .second-content-container h1{
-        font-size: .8em;
+        font-size: 1em;
         margin-left: -.1em;
     }
     .second-content-container p{
-        font-size: .7em;
+        font-size: .9em;
     }
     .rating i{
-        font-size: .5em;
+        font-size: .7em;
     }
     .more{
         display: none;
